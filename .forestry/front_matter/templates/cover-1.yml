@@ -1,0 +1,22 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: heading
+  label: Heading
+- type: textarea
+  name: text
+  label: Text
+- type: file
+  name: background_image
+  label: Background Image
+- type: color
+  name: background_color
+  config:
+    color_format: Hex
+  label: Background Color
+- type: include
+  name: settings
+  label: settings
+  template: block-settings

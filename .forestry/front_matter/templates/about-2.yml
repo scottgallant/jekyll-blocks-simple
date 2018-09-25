@@ -1,0 +1,21 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: file
+  name: image
+  label: Image
+- type: text
+  name: heading
+  label: Heading
+- type: textarea
+  name: text
+  label: Text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: include
+  template: block-settings
+  label: settings
+  name: settings

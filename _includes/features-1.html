@@ -1,0 +1,16 @@
+<section class="block {% if block.settings.top_margin == "none" %}remove-top-margin{% endif %} {% if block.settings.bottom_margin == "none" %}remove-bottom-margin{% endif %}" id="fourteen">
+  <div class="container">
+    <div class="row">
+      {% for feature in block.features %}
+      <div class="col-xs">
+        <div class="box">
+          <i class="material-icons md-48">{{ feature.icon }}</i>
+          <h2>{{ feature.heading }}</h2>
+          <p>{{ feature.text }}</p>
+          <a href="{{ feature.link_url }}">{{ feature.link_text }} <i class="material-icons md-18">keyboard_arrow_right</i></a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

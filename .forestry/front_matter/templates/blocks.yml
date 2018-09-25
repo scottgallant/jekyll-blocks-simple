@@ -1,0 +1,23 @@
+---
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  default: blocks
+- type: blocks
+  template_types:
+  - divider
+  - about-1
+  - about-2
+  - cover-1
+  - features-1
+  label: Blocks
+  name: blocks
+pages:
+- site/index.md

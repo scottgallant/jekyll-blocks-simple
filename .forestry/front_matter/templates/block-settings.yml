@@ -1,0 +1,35 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: field_group
+  name: settings
+  label: Settings
+  fields:
+  - type: select
+    name: top_margin
+    config:
+      source:
+        type: simple
+      options:
+      - 120px
+      - none
+    label: Top Margin
+    description: The empty space above this block
+    default: 120px
+  - type: select
+    name: bottom_margin
+    config:
+      source:
+        type: simple
+      options:
+      - 120px
+      - none
+    label: Bottom Margin
+    description: The empty space below this block
+    default: 120px
+  - type: color
+    name: text_color
+    config:
+      color_format: Hex
+    label: Text Color

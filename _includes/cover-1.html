@@ -1,0 +1,16 @@
+<section class="block {% if block.settings.top_margin == "none" %}remove-top-margin{% endif %} {% if block.settings.bottom_margin == "none" %}remove-bottom-margin{% endif %}" id="five">
+  <div class="background {% if block.background_image %} image {% endif %}" style="{% if block.background_image %}background-image: url({{ block.background_image }});{% else %} background:{{ block.background_color }};{% endif %}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text" style="{% if block.settings.text_color %}color: {{ block.settings.text_color }}{% endif %}">
+            <h2 style="{% if block.settings.text_color %}color: {{ block.settings.text_color }}{% endif %}">{{ block.heading }}</h2>
+            {% if block.text %}
+            <p style="{% if block.settings.text_color %}color: {{ block.settings.text_color }}{% endif %}">{{ block.text }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

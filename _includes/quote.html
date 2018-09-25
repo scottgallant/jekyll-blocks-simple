@@ -1,0 +1,13 @@
+<section class="block {% if include.class %}{{ include.class }}{% endif %}" id="quote">
+  <div class="background">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-offset-2 col-xs-8">
+          <hr>
+          <p style="{% if block.settings.text_color %}color: {{ block.settings.text_color }}{% endif %}">{{ block.text }}</p>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

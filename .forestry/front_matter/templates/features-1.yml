@@ -1,0 +1,54 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: field_group_list
+  name: features
+  label: Features
+  fields:
+  - type: text
+    name: heading
+    label: Heading
+  - type: select
+    name: icon
+    config:
+      source:
+        type: simple
+      options:
+      - extension
+      - subtitles
+      - face
+      - done
+      - favorite
+      - grade
+      - build
+      - backup
+      - bookmark
+      - search
+      - settings
+      - error
+      - warning
+      - work
+      - watch later
+      - visibility
+      - view carousel
+      - view list
+      - view module
+    label: Icon
+  - type: textarea
+    name: text
+    label: text
+    config:
+      wysiwyg: false
+      schema:
+        format: markdown
+  - type: text
+    name: link_text
+    label: link text
+  - type: text
+    name: link_url
+    label: Link URL
+- type: include
+  name: settings
+  label: settings
+  template: block-settings
