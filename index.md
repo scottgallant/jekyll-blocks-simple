@@ -3,7 +3,7 @@ layout: blocks
 title: Homepage
 blocks:
 - template: cover-1
-  heading: Test
+  heading: Block one
   text: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
     mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. '
   background_image: "/uploads/2018/04/21/forest-2.jpg"
