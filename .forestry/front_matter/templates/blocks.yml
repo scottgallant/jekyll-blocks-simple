@@ -19,13 +19,5 @@ fields:
   - features-1
   label: Blocks
   name: blocks
-- name: additional_resources
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: Additional Resources
-  description: Links to other pages
 pages:
 - index.md
