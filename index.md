@@ -4,14 +4,15 @@ title: Homepage
 blocks:
 - template: cover-1
   heading: Block one
-  text: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-    mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. '
+  text: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+    mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. asdfasdf
   background_image: "/uploads/2018/04/21/forest-2.jpg"
   background-color: blue
   settings:
     top_margin: none
     bottom_margin: none
     text_color: white
+  background_color: ''
 - template: features-1
   features:
   - heading: '3rd heading '
@@ -38,6 +39,7 @@ blocks:
   settings:
     top_margin: none
     bottom_margin: 120px
+    text_color: ''
 - template: about-1
   settings:
     top_margin: 120px
@@ -69,5 +71,6 @@ blocks:
   background_color: "#ddd"
   text: Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed
     consectetur.
+  background_image: ''
 
 ---
