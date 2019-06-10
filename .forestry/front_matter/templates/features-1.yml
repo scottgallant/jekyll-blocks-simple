@@ -1,6 +1,6 @@
 ---
+label: features-1
 hide_body: false
-is_partial: true
 fields:
 - type: field_group_list
   name: features

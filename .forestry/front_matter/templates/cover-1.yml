@@ -1,6 +1,6 @@
 ---
+label: cover-1
 hide_body: false
-is_partial: true
 fields:
 - type: text
   name: heading

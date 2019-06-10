@@ -1,6 +1,6 @@
 ---
+label: blocks
 hide_body: true
-is_partial: false
 fields:
 - type: text
   name: title
@@ -19,5 +19,3 @@ fields:
   - features-1
   label: Blocks
   name: blocks
-pages:
-- site/index.md
